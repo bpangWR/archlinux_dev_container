@@ -1,4 +1,4 @@
 FROM dokervirus/archlinux_dev
 RUN pacman -Syu --noconfirm
-RUN pacman -S --noconfirm base-devel git vim emacs mingw-w64-toolchain cmake python
+RUN pacman -S --noconfirm base-devel git vim emacs mingw-w64-toolchain cmake python gdb
 WORKDIR /build
